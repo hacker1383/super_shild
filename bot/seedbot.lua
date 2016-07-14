@@ -327,16 +327,16 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+اخرج کردن یک کاربر از گروه
 
 !ban [ username|id]
-You can also do it by reply
+اخرج کردن و جلوگیری از ورود یک کاربر به گروه 
 
 !unban [id]
-You can also do it by reply
+لغو جلوگیری ازورود یک کاربر به گروه        
 
 !who
-Members list
+
 
 !modlist
 Moderators list
