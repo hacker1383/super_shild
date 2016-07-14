@@ -339,31 +339,29 @@ Commands list :
 لیست اعضای گروه
 
 !promote [username]
-Promote someone
+!بالا بردن مقام یک کاربر
 
 !demote [username]
-Demote someone
+!پایین اوردن مقام یک کاربر 
 
 !kickme
-Will kick user
+!من را از گروه اخراج کن 
+
 
 !about
-Group description
+مشاهده درباره گروه 
 
 !setphoto
-Set and locks group photo
+تغییر عکس گروه 
 
 !setname [name]
-Set group name
+تغییر اسم گروه 
 
 !rules
-Group rules
-
-!id
-Return group id or user id
+مشاهده قوانین گروه 
 
 !help
-Get commands list
+مشاهده لیست دستورات ربات 
 
 !lock [member|name|bots|leave] 
 Locks [member|name|bots|leaveing] 
@@ -372,51 +370,46 @@ Locks [member|name|bots|leaveing]
 Unlocks [member|name|bots|leaving]
 
 !set rules [text]
-Set [text] as rules
+تغییر قوانین گروه 
 
 !set about [text]
-Set [text] as about
+تغییر متن درباره گروه 
 
 !settings
-Returns group settings
+مشاهده تنظیمات گروه 
 
 !newlink
-Create/revoke your group link
+ساخت یا تغییر لینک گروه
 
 !link
-Returns group link
+مشاهده لینک گروه
+
+!linkpv
+دریافت لینک در چت شخصی شما
 
 !owner
-Returns group owner id
+مشاهده ایدی صاحب گروه 
 
 !setowner [id]
-Will set id as owner
+تغییر صاحب گروه 
 
 !setflood [value]
-Set [value] as flood sensitivity
-
-!stats
-Simple message statistics
-
-!save [value] [text]
-Save [text] as [value]
-
-!get [value]
-Returns text of [value]
+تغییر حساسیت ربات به اسپم
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن همهی مدیر ها،قوانین و یا متن درباره گروه 
 
 !res [username]
-Returns user id
+مشاهده اطلاعات کاربر
 
 !log
-Will return group logs
+دریافت اطلاعات گروه (از اغاز)ـ
 
 !banlist
-Will return group ban list
+دریات لیست افراد بن شده 
 
-» U can use both "/" and "!" 
+بن:افرادی که از ورود ان ها به گروه جلوگیری شده 
+»شما میتوانید ازعلامت های "!"و "/"در ابتدای دستورات استفاده کنید 
 
 » Only mods, owner and admin can add bots in group
 
