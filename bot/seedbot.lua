@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {119296662,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -333,13 +333,10 @@ Commands list :
 اخرج کردن و جلوگیری از ورود یک کاربر به گروه 
 
 !unban [id]
-لغو جلوگیری ازورود یک کاربر به گروه        
-
-!who
-
+ ازورود یک کاربر به گروه اعضای گروه
 
 !modlist
-Moderators list
+لیست اعضای گروه
 
 !promote [username]
 Promote someone
