@@ -232,7 +232,8 @@ function create_config( )
     "shorten",
     "text",
     "sticker",
-    "aparat"
+    "aparat",
+    "voice"
     },
     sudo_users = {119296662,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -423,6 +424,10 @@ write [word]
 
 !aparat [text]
 دستور جستوجو در سایت اپارات 
+
+!voice [text]
+دستور تبدیل متن به صدا
+
 
 
 
