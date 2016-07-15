@@ -228,7 +228,9 @@ function create_config( )
     "linkpv",
     "calc",
     "mean",
-    "write"
+    "write",
+    "shorten",
+    "text"
     },
     sudo_users = {119296662,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -239,21 +241,10 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/SEEDTEAM/TeleSeed
 
 Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
-
-Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
+king of world @mejoin
 
 Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+Persian: @btteam
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -412,13 +403,21 @@ Unlocks [member|name|bots|leaving]
 !calc 
 دستور ماشین حساب ،در جلوی دستور  عبارت مورد نظر را بنوسید مثال :4+4
 
-!mean [world]
+!mean [word]
 دستور دیکشنری اینگلیسی به فارسی 
 !banlist
 دریات لیست افراد بن شده 
 
-write [world]
+write [word]
 !با این دستور میتواید یک کلمه را با 100 فونت بنوسید ،نیازی  به گذاشتن علامت در ابتدای ان نیست
+
+!short [url]
+!دستور کوتاه کردن لینک 
+
+!tex [word]
+!دستور تبدیل متن به عکس 
+
+
 
 
 بن:افرادی که از ورود ان ها به گروه جلوگیری شده 
