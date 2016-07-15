@@ -411,11 +411,9 @@ Unlocks [member|name|bots|leaving]
 بن:افرادی که از ورود ان ها به گروه جلوگیری شده 
 »شما میتوانید ازعلامت های "!"و "/"در ابتدای دستورات استفاده کنید 
 
-» Only mods, owner and admin can add bots in group
+»!فقط مدیر ها،صاحب گروه و ادمین ها میتوانند ربات هارا اضافه کنند
 
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-» Only owner can use res,setowner,promote,demote and log commands
+»! فقط صاحب گروه میتواند صاحب گروه را عوض کند 
 
 ]]
   }
