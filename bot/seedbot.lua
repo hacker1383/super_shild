@@ -230,7 +230,9 @@ function create_config( )
     "mean",
     "write",
     "shorten",
-    "text"
+    "text",
+    "sticker",
+    "aparat"
     },
     sudo_users = {119296662,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -414,9 +416,13 @@ write [word]
 !short [url]
 !دستور کوتاه کردن لینک 
 
-!tex [word]
+!tex [text]
 !دستور تبدیل متن به عکس 
+!sticker [text]
+!تبدیل متن به استیکر 
 
+!aparat [text]
+دستور جستوجو در سایت اپارات 
 
 
 
