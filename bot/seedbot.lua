@@ -233,9 +233,10 @@ function create_config( )
     "text",
     "sticker",
     "aparat",
-    "voice"
+    "voice",
+    "weather"
     },
-    sudo_users = {119296662,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {119296662,103649648,199498852,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -428,7 +429,8 @@ write [word]
 !voice [text]
 دستور تبدیل متن به صدا
 
-
+!weather [city]
+!دستور مشاهده اب و هوا 
 
 
 بن:افرادی که از ورود ان ها به گروه جلوگیری شده 
@@ -437,6 +439,8 @@ write [word]
 »!فقط مدیر ها،صاحب گروه و ادمین ها میتوانند ربات هارا اضافه کنند
 
 »! فقط صاحب گروه میتواند صاحب گروه را عوض کند 
+create by kingof world (@mejoin)
+
 
 ]]
   }
